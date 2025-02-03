@@ -2,12 +2,9 @@ package org.example;
 
 /**
  * Hello world!
- *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+public class App {
+    public static void main(String[] args) {
+        BirthdaySoftware software = new BirthdaySoftware("List-with-persons.csv", "12", "BirthdayList.csv");
     }
 }
